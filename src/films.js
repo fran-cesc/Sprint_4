@@ -84,9 +84,9 @@ function bestFilmOfYear(array, year) {
     }
       return 0;
   });
-  console.log(moviesYear);
-  console.log(moviesYearBestFilm);
-  return moviesYearBestFilm[0].title;
+  const arrayWithBestFilm = [];
+  arrayWithBestFilm.push(moviesYearBestFilm[0]);
+  return arrayWithBestFilm;
 // Els testos fallen, però penso que es perquè no son correctes.
 }
 
